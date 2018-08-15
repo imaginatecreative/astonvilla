@@ -68,6 +68,10 @@ h1, h2, h3, h4, h5, h6 {
   color: $header-color;
   font-family: $header-font-family;
   line-height: $header-line-height;
+  strong{
+    font-family: $header-font-family;
+
+  }
 }
 
 // Heading One Styles
@@ -142,6 +146,7 @@ h3, h3 span {
   strong {
     font-size: $header-size / 1.5;
     font-weight: 800;
+
 
   }
 }

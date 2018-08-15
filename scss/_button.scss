@@ -16,7 +16,7 @@ button{
 .button-primary, input[type=submit] {
   padding: 10px 19px;
   display: inline-block;
-  font-size: $paragraph-size;
+  font-size: 1.3rem;
   font-family: "effra", sans-serif;
   text-transform: uppercase;
   cursor: pointer;
@@ -94,24 +94,27 @@ input[type=number] {
 
 
 .button-primary.choices {
-  background: $grey;
+  background: $brand-one;
   margin: 0.5rem 0 0 0;
   border: none;
   font-size: $paragraph-size;
-  text-transform: uppercase;
   border-radius: 5px;
+  font-style: italic;
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  font-family: "adobe-garamond-pro", sans-serif;
 
   &:hover {
-    background-color: $brand-one;
+    background-color: $brand-three;
     color: $white;
   }
   &:active,&.focus {
-    background-color: $brand-one;
+    background-color: $brand-three;
     color: $white;
   }
 
   &:focus {
-    background-color: $brand-one;
+    background-color: $brand-three;
     color: $white;
     outline: none;
   }
@@ -119,7 +122,8 @@ input[type=number] {
 .button-secondary{
   padding: 10px 20px;
   display: inline-block;
-  font-size: $paragraph-size;
+  font-size: 1.3rem;
+
   font-family: "effra", sans-serif;
   text-transform: uppercase;
   cursor: pointer;
@@ -154,10 +158,6 @@ input[type=number] {
   }
   @media only screen and (max-width: 768px) {
     padding: 15px 25px;
-  }
-  &.alt{
-    background-color: $white!important;;
-    color: $brand-one!important;
   }
 }
 

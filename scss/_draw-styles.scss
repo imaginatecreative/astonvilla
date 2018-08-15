@@ -175,10 +175,10 @@
     *:not(a) {
       color: $black;
     }
-    h4{
+    h4 {
       color: $black;
     }
-    h5{
+    h5 {
       margin: 0.5rem 0;
       color: $brand-one;
       font-size: $header-size / 2.6;
@@ -216,6 +216,19 @@
       flex: 1 1 250px;
 
     }
+
+    h3 {
+    }
+    h4 {
+      margin: 0;
+
+      &:nth-of-type(1) {
+        font-family: "adobe-garamond-pro", sans-serif;
+        font-style: italic;
+      }
+      &:nth-of-type(2) {
+      }
+    }
   }
   .inner_mid {
     display: inline-flex;
@@ -227,12 +240,22 @@
       color: $brand-one;
       width: 100%;
       flex: 1 0 auto;
-
+      margin: 0;
+      line-height: 1;
       @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
         /* IE10+ CSS styles go here */
         max-width: 300px;
       }
-
+      &:nth-of-type(1) {
+      }
+      &:nth-of-type(2) {
+        color: $black;
+        font-weight: 600;
+      }
+    }
+    h4 {
+      color: $brand-one;
+      margin-top: 0;
     }
     input[type=number] {
       width: 130px;
@@ -254,6 +277,9 @@
   .inner_bottom {
     @media only screen and (min-width: 1000px) {
       flex: 1 1 250px;
+    }
+    h6>a{
+      color: $black;
     }
   }
   input[type=number] {
