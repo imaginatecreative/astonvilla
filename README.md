@@ -9,5 +9,5 @@ Please download the site, ensure you have node.js & gulp installed, then using t
 The Styles are in SASS and require a preprocessor, the gulp file included handles this, if using any other method, ensure auto prefixer is applied to support legacy broswers
 
 ### Hosted on github pages
-Template site: [HTML Prototype](https://imaginatecreative.github.io/Liverpool/)   
+Template site: [HTML Prototype](https://imaginatecreative.github.io/astonvilla/)   
 
