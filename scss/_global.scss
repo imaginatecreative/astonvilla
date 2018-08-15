@@ -1,0 +1,160 @@
+
+$white: #ffffff;
+$grey: #707070;
+$darkgray: #666666;
+$black: #2b2b2b;
+
+$brand-one: #6F0B3B;
+$brand-two: #93BEE5;
+$brand-three: #0069B4;
+$brand-four: #41C0F0;
+
+$brand-five: #FFE082;
+$brand-six: #F7A700;
+$brand-seven: #F08300;
+
+
+
+section, header, footer {
+  width: 100%;
+  box-sizing: border-box;
+  .inner_wrapper {
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    &.row {
+      display: inline-flex;
+    }
+  }
+  .block, figure {
+    vertical-align: top;
+    box-sizing: border-box;
+    display: inline-block;
+    .inner_block {
+      box-sizing: border-box;
+    }
+    img {
+      max-width: 100%;
+    }
+  }
+}
+
+.constrain {
+  max-width: calc(100% - calc(100% - 1600px));
+  margin: auto;
+  padding: 0 3em;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  section.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: auto;
+    z-index: 20;
+    .inner_wrapper {
+      width: auto;
+      display: inline-block;
+      .block {
+        width: 100%;
+        max-width: 490px;
+        img{
+          padding: 0.3rem;
+        }
+      }
+    }
+    @media only screen and (max-width: 1250px) {
+      .inner_wrapper {
+        .block {
+          max-width: 350px;
+        }
+      }
+    }
+    @media only screen and (max-width: 1000px) {
+      .inner_wrapper {
+        .block {
+          max-width: 250px;
+        }
+      }
+    }
+    @media only screen and (max-width: 750px) {
+      max-width: 200px;
+
+    }
+    @media only screen and (max-width: 600px) {
+      max-width: 150px;
+    }
+  }
+}
+
+.bottom_row {
+  width: 100%;
+  display: inline-flex;
+  min-height: 150px;
+  padding: 0;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  @media only screen and (max-width: 1000px) {
+    .block {
+      flex: 1 1 49%;
+      width: 49%;
+      margin-bottom: 0.5rem;
+      &:nth-child(1) {
+        margin-right: 0.25rem;
+      }
+      &:nth-child(2) {
+        margin-left: 0.25rem;
+      }
+      &:nth-child(3) {
+        margin-right: 0.25rem;
+      }
+      &:nth-child(4) {
+        margin-left: 0.25rem;
+      }
+    }
+  }
+  @media only screen and (max-width: 750px) {
+    .block {
+      flex: 1 1 100%;
+      width: 100%;
+      margin-bottom: 0.5rem;
+      &:nth-child(1n) {
+        margin: 0;
+        margin-bottom: 0.5rem;
+      }
+    }
+  }
+  @media only screen and (min-width: 750px) {
+    flex-direction: row;
+
+  }
+  @media only screen and (min-width: 1000px) {
+    height: 15vh;
+    //padding-left: 120px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+  }
+}
+
+
+
+
+
+/*
+* added as per Richard on freedcamp:
+* https://freedcamp.com/BD_SPort_BlG/5050_Lottery_jah/discussions/647385
+*/
+.digit { display: inline-block;  width: 32px;  font-size: inherit; text-align: center; }
+.clock-separator { display: inline-block; width: 7px; text-align: center;}
+.countdown-clock { display: inline-block;  }
+span { font-size: .83333rem;}
+.text-right {text-align: right}

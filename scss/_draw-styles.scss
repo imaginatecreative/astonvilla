@@ -1,0 +1,328 @@
+//GENERAL DRAW STYLES
+.block.draw {
+  flex-direction: column;
+  text-align: center;
+  width: 30%;
+  min-width: 250px;
+  display: inline-flex;
+  justify-content: space-between;
+
+  @media only screen and (min-width: 1000px) {
+    flex: 1 1 300px;
+  }
+  @media only screen and (max-width: 1000px) {
+    width: 100%;
+  }
+  @media only screen and (max-width: 900px) {
+    flex: 1 1 50%;
+  }
+  & > div {
+    padding: 1rem;
+
+  }
+  .inner_top {
+    padding: 1rem;
+    flex: 1 1 auto !important;
+
+  }
+  .inner_mid {
+    padding: 1rem;
+    flex: 1 1 auto !important;
+
+    @media only screen and (max-width: 900px) {
+
+    }
+  }
+  .inner_bottom {
+    padding: 1rem;
+    flex: 1 1 auto !important;
+  }
+  & .text-left {
+    text-align: left;
+  }
+
+}
+
+//JUST FOR THE HOME PANEL
+.block.home {
+  @media only screen and (max-width: 1000px) {
+    width: 100%;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin-bottom: 0.5rem;
+  }
+  *:not(a) {
+    margin: 0;
+  }
+  & > div {
+    display: inherit;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @media only screen and (max-width: 1000px) {
+      width: 29%;
+    }
+    @media only screen and (max-width: 750px) {
+      width: 100%;
+    }
+  }
+  .inner_top {
+    background-color: $white;
+    * {
+      color: $brand-one;
+    }
+    h4 {
+
+    }
+    h1 {
+      font-family: "effra", sans-serif;
+      text-transform: uppercase;
+    }
+    h6 {
+      margin-top: 0.5rem;
+
+    }
+    a {
+      color: $black;
+    }
+    @media only screen and (min-width: 1000px) {
+      flex: 1 1 25%;
+
+    }
+    @media only screen and (max-width: 1000px) {
+      flex: 1 1 50%;
+      width: 50%;
+      order: 3;
+      border: 1px solid $brand-one;
+    }
+    @media only screen and (max-width: 600px) {
+      flex: 1 1 100%;
+      width: 100%;
+      order: 1;
+    }
+  }
+  .inner_mid {
+    padding: 0 1rem 1rem 1rem;
+    background: url("../img/draw-image.jpg") center center / cover no-repeat;
+    @media only screen and (max-width: 1000px) {
+      background: url("../img/draw-image.jpg") center center / cover no-repeat;
+    }
+    h4 {
+      &:nth-child(1) {
+        margin-bottom: auto;
+        background-color: $white;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        color: $black;
+        font-style: italic;
+        font-family: "adobe-garamond-pro", sans-serif;
+        padding: 0.2rem 0.5rem;
+      }
+      &:nth-child(2) {
+        background-color: $brand-one;
+        border-radius: 5px;
+        color: $white;
+        padding: 0.2rem 0.5rem;
+        margin-bottom: -15px;
+        z-index: 2;
+
+      }
+    }
+    h3 {
+    }
+    @media only screen and (min-width: 1000px) {
+      min-height: 240px;
+      h4 {
+      }
+    }
+    * {
+      color: $white;
+    }
+    .verses {
+      margin-bottom: auto;
+      border-radius: 5px;
+      background-color: rgba($black, 0.6);
+      padding: 1rem;
+      img {
+        display: inline-block;
+        max-width: 100px;
+        max-height: 100px;
+      }
+      p, h1, h2, h3, h4, h5, h6 {
+        display: inline-block;
+      }
+    }
+    @media only screen and (min-width: 1000px) {
+      flex: 1 1 45%;
+
+    }
+    @media only screen and (max-width: 1000px) {
+      flex: 1 1 50%;
+      width: 50%;
+      order: 2;
+    }
+    @media only screen and (max-width: 600px) {
+      flex: 1 1 100%;
+      width: 100%;
+      order: 2;
+    }
+
+  }
+  .inner_bottom {
+
+    background-color: $white;
+    *:not(a) {
+      color: $black;
+    }
+    h4{
+      color: $black;
+    }
+    h5{
+      margin: 0.5rem 0;
+      color: $brand-one;
+      font-size: $header-size / 2.6;
+    }
+    @media only screen and (min-width: 1000px) {
+      flex: 1 1 30%;
+    }
+    @media only screen and (max-width: 1000px) {
+      flex: 1 1 100%;
+      width: 100%;
+      order: 1;
+    }
+    @media only screen and (max-width: 600px) {
+      order: 3;
+
+    }
+  }
+}
+
+//STEP ONE
+.block.step-one {
+  flex-direction: row;
+  .inner_top, .inner_mid, .inner_bottom {
+    display: inherit;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @media only screen and (max-width: 1000px) {
+      padding: 0 1rem;
+    }
+  }
+  .inner_top {
+    @media only screen and (min-width: 1000px) {
+      flex: 1 1 250px;
+
+    }
+  }
+  .inner_mid {
+    display: inline-flex;
+
+    @media only screen and (min-width: 1000px) {
+      flex: 1 1 400px;
+    }
+    h2 {
+      color: $brand-one;
+      width: 100%;
+      flex: 1 0 auto;
+
+      @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+        /* IE10+ CSS styles go here */
+        max-width: 300px;
+      }
+
+    }
+    input[type=number] {
+      width: 130px;
+      color: $white;
+    }
+    .options-wrap {
+      width: 100%;
+      @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+        /* IE10+ CSS styles go here */
+        max-width: 300px;
+        display: inline-flex;
+        flex-wrap: wrap;
+        * {
+          flex: 1 0 auto;
+        }
+      }
+    }
+  }
+  .inner_bottom {
+    @media only screen and (min-width: 1000px) {
+      flex: 1 1 250px;
+    }
+  }
+  input[type=number] {
+    color: $black;
+  }
+}
+
+.block.draw {
+
+}
+
+//STEP TWO
+div.block.step-two {
+
+}
+
+.step-two {
+
+}
+
+//STEP THREE
+.block.step-three {
+  .embed-container {
+    flex: 1 1 80%;
+    @media only screen and (max-width: 1000px) {
+      min-height: 700px;
+    }
+  }
+  .inner {
+    flex: 1 1 20%;
+    border-top: 1px solid $brand-one;
+  }
+
+}
+
+//STEP FOUR
+.block.step-four {
+  *:not(a) {
+    color: $white;
+  }
+  background-color: $brand-one;
+  & > div {
+    flex: 1 1 30%;
+  }
+  .inner_top {
+
+  }
+  .inner_mid {
+    display: inherit;
+    flex-direction: column;
+
+    .social {
+      margin-bottom: 1rem;
+      display: inline-flex;
+      justify-content: center;
+      button {
+        &:before {
+          color: $white;
+          font-size: 2rem;
+        }
+      }
+    }
+    hr {
+      margin: auto auto 0 auto;
+      width: 90%;
+      justify-self: center;
+    }
+  }
+  .inner_bottom {
+  }
+}
+

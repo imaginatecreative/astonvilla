@@ -1,0 +1,122 @@
+.inner_wrapper.ticker{
+  z-index: 40;
+  position: relative;
+  .block{
+    z-index: 40;
+    position: relative;
+    text-align: center;
+
+  }
+}
+footer {
+  position: relative;
+  @media only screen and (min-width: 750px) {
+    height: 10vh;
+  }
+  .inner_wrapper.footer-nav {
+    background-color: $darkgray;
+    text-align: center;
+    .block {
+      padding: 0.2rem;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+    }
+    nav.block {
+      @media only screen and (min-width: 750px) {
+        height: 5vh;
+      }
+      ul {
+        z-index: 3;
+      }
+    }
+    .block.copy {
+      flex-direction: column;
+      z-index: 1;
+      position: relative;
+      @media only screen and (min-width: 750px) {
+        max-width: 60%;
+
+      }
+      padding: 0.5rem;
+    }
+  }
+  .inner_wrapper.acred {
+    background-color: $darkgray;
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    top: 0;
+    .block {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      &.payment {
+        justify-content: flex-start;
+        .methods {
+          padding: 10px;
+          text-align: center;
+          img {
+            max-width: 50px;
+            width: 30%;
+            display: inline-block;
+          }
+        }
+      }
+      &.social {
+        justify-content: flex-end;
+        padding-right: 1rem;
+        button {
+          padding: 0.5rem;
+          &:before {
+            color: $white;
+          }
+        }
+      }
+    }
+    @media only screen and (min-width: 1300px) {
+      position: absolute;
+    }
+  }
+}
+
+.footer-nav {
+  nav.block {
+    width: 100%;
+    ul {
+      margin: 0;
+      padding: 0;
+      li {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: inline-block;
+        a {
+          color: $white;
+          font-size: $header-size / 3.5;
+          padding-right: 0.5rem;
+          &:after {
+            content: '|';
+            padding-left: 0.5rem;
+          }
+
+        }
+        &:nth-last-child(1) {
+          a {
+            &:after {
+              content: " ";
+            }
+          }
+        }
+      }
+    }
+  }
+  .block.copy {
+    width: 100%;
+    h6 {
+      margin: 0;
+      color: $white;
+    }
+  }
+}

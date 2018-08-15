@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Filson Soft';
+    src: url('FilsonSoftRegular.eot');
+    src: url('FilsonSoftRegular.eot?#iefix') format('embedded-opentype'),
+        url('FilsonSoftRegular.woff2') format('woff2'),
+        url('FilsonSoftRegular.woff') format('woff'),
+        url('FilsonSoftRegular.ttf') format('truetype'),
+        url('FilsonSoftRegular.svg#FilsonSoftRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
