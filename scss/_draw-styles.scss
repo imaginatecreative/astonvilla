@@ -318,9 +318,9 @@ div.block.step-two {
 //STEP FOUR
 .block.step-four {
   *:not(a) {
-    color: $white;
+    color: $brand-one;
   }
-  background-color: $brand-one;
+  background-color: $white;
   & > div {
     flex: 1 1 30%;
   }
@@ -337,7 +337,7 @@ div.block.step-two {
       justify-content: center;
       button {
         &:before {
-          color: $white;
+          color: $brand-one;
           font-size: 2rem;
         }
       }
