@@ -13,6 +13,9 @@ button{
   }
 
 }
+a{
+  color: $black;
+}
 .button-primary, input[type=submit] {
   padding: 10px 19px;
   display: inline-block;
@@ -25,19 +28,19 @@ button{
   transition-property: background-color;
   transition-duration: 0.2s;
   transition-timing-function: ease-in-out;
-  background: $brand-two;
+  background: $brand-one;
   margin: 0.5rem 0 0 0;
   border: none;
   color: $white;
 
   &:hover {
-    background-color: $brand-one;
+    background-color: $brand-two;
     color: $white;
     outline: none;
 
   }
   &:active,&.focus {
-    background-color: $brand-one;
+    background-color: $brand-two;
     color: $white;
     outline: none;
 
@@ -54,8 +57,9 @@ button{
   &.alt{
     background-color: $white!important;
     color: $brand-one!important;
+    border: 2px solid $brand-one;
     &:hover {
-      background-color: $grey!important;
+      background-color: $brand-one!important;
       color: $white!important;
       outline: none;
 
@@ -98,11 +102,8 @@ input[type=number] {
   margin: 0.5rem 0 0 0;
   border: none;
   font-size: $paragraph-size;
-  border-radius: 5px;
-  font-style: italic;
-  font-size: 1.3rem;
+  font-size: 1rem;
   text-transform: capitalize;
-  font-family: "adobe-garamond-pro", sans-serif;
 
   &:hover {
     background-color: $brand-three;
@@ -127,10 +128,7 @@ input[type=number] {
   font-family: "effra", sans-serif;
   text-transform: uppercase;
   cursor: pointer;
-  border-radius: 5px;
-
   letter-spacing: 1px;
-  border-radius: 500px;
   transition-property: background-color;
   transition-duration: 0.2s;
   transition-timing-function: ease-in-out;
