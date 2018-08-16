@@ -320,6 +320,11 @@ div.block.step-two {
   *:not(a) {
     color: $brand-one;
   }
+  h2, h2 strong,p{
+    color: $black;
+    font-family: "effra", sans-serif;
+  }
+
   background-color: $white;
   & > div {
     flex: 1 1 30%;
