@@ -10,4 +10,5 @@ The Styles are in SASS and require a preprocessor, the gulp file included handle
 
 ### Hosted on github pages
 Template site: [HTML Prototype](https://imaginatecreative.github.io/astonvilla/)   
+XD site: [HTML Prototype](https://xd.adobe.com/view/aa15ed25-cce7-4b46-4860-c5596167a7f5-dc24/)   
 
