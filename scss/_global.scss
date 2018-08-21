@@ -67,6 +67,11 @@ body {
         max-width: 490px;
         img{
           padding: 0.3rem;
+          max-width: 155px;
+          @media only screen and (max-width: 1000px) {
+            max-width: 135px;
+
+          }
         }
       }
     }
