@@ -64,6 +64,9 @@ footer {
             width: 30%;
             display: inline-block;
           }
+          &~img{
+            max-width: 150px;
+          }
         }
       }
       &.social {

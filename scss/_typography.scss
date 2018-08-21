@@ -224,7 +224,7 @@ p {
 
 // Links
 a {
-  color: $link-color;
+  color: $brand-two;
   text-decoration: none;
   z-index: 20;
   font-size: $paragraph-size;
@@ -234,9 +234,6 @@ a {
 
   &:hover {
     color: darken($link-color, 10%);
-  }
-  &.alt{
-    color: $white;
   }
 }
 span.ticker-a {
