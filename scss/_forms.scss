@@ -243,6 +243,8 @@ input[type='number']{
   }
   .autotabbed {
     input {
+      color: $black;
+
       &:nth-child(1) {
         max-width: 40px;
         border: none;

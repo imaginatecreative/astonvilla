@@ -5,8 +5,13 @@
     z-index: 40;
     position: relative;
     text-align: center;
-    h6 span.ticker-a{
+    h6 span.ticker-a, a, h6 a{
       font-weight: 800;
+    }
+    h6 a{
+      color: $brand-three;
+      font-weight: 800;
+
     }
   }
 }
