@@ -17,16 +17,16 @@
     flex: 1 1 50%;
   }
   & > div {
-    padding: 1rem;
+    padding: 0 1rem;
 
   }
   .inner_top {
-    padding: 1rem;
+    padding: 0 1rem;
     flex: 1 1 auto !important;
 
   }
   .inner_mid {
-    padding: 1rem;
+    padding: 0 1rem;
     flex: 1 1 auto !important;
 
     @media only screen and (max-width: 900px) {
@@ -34,7 +34,7 @@
     }
   }
   .inner_bottom {
-    padding: 1rem;
+    padding: 0 1rem;
     flex: 1 1 auto !important;
   }
   & .text-left {
@@ -103,7 +103,7 @@
     }
   }
   .inner_mid {
-    padding: 0 1rem 1rem 1rem;
+    padding: 0 1rem;
     background: url("../img/draw-image.jpg") center center / cover no-repeat;
     @media only screen and (max-width: 1000px) {
       background: url("../img/draw-image.jpg") center center / cover no-repeat;
