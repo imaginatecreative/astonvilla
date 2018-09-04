@@ -179,6 +179,9 @@
     }
     h4 {
       color: $black;
+      &:nth-child(1){
+        font-weight: 600;
+      }
     }
     h5 {
       margin: 0.5rem 0;

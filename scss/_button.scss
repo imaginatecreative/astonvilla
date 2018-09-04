@@ -28,13 +28,13 @@ a{
   transition-property: background-color;
   transition-duration: 0.2s;
   transition-timing-function: ease-in-out;
-  background: $brand-one;
+  background: $brand-two;
   margin: 0.5rem 0 0 0;
   border: none;
   color: $white;
 
   &:hover {
-    background-color: $brand-two;
+    background-color: $brand-one;
     color: $white;
     outline: none;
 
@@ -98,7 +98,7 @@ input[type=number] {
 
 
 .button-primary.choices {
-  background: $brand-one;
+  background: $brand-two;
   margin: 0.5rem 0 0 0;
   border: none;
   font-size: $paragraph-size;
@@ -106,16 +106,16 @@ input[type=number] {
   text-transform: capitalize;
 
   &:hover {
-    background-color: $brand-three;
+    background-color: $brand-one;
     color: $white;
   }
   &:active,&.focus {
-    background-color: $brand-three;
+    background-color: $brand-one;
     color: $white;
   }
 
   &:focus {
-    background-color: $brand-three;
+    background-color: $brand-one;
     color: $white;
     outline: none;
   }

@@ -9,17 +9,36 @@ header.block.side_bar {
     li {
       list-style: none;
       display: block;
+      &:hover {
+        a{
+          color: $brand-two;
+        }
+        &:before {
+          color: $brand-two;
+          width: 20px;
+          display: inline-block;
+        }
+      }
       a {
         padding: 0 0 0 0.25rem;
         font-family: "effra", sans-serif;
         font-weight: 100;
         color: $brand-one;
-
       }
       &:before {
         color: $brand-one;
         width: 20px;
         display: inline-block;
+      }
+      &.active{
+        a{
+          color: $brand-two;
+        }
+        &:before {
+          color: $brand-two;
+          width: 20px;
+          display: inline-block;
+        }
       }
     }
   }

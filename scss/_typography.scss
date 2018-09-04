@@ -1,5 +1,6 @@
 
 @import url("https://use.typekit.net/eop1dnt.css");
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
 
 
 // PX to REM - Usage: font-size: rem(37px);
@@ -13,7 +14,7 @@
 \*------------------------------------*/
 
 // Font Family
-$font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+$font-family: 'EB Garamond',Helvetica Neue,Helvetica,sans-serif;
 
 $header-font-family: "effra", sans-serif;
 
@@ -181,11 +182,11 @@ h4 {
 //
 // Styleguide typography.heading-five
 h5 {
-  font-size: $header-size / 2;
+  font-size: $header-size / 2.5;
   font-weight: 400;
 
   strong {
-    font-size: $header-size / 2;
+    font-size: $header-size / 2.5;
     font-weight: 800;
   }
 }
