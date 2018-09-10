@@ -96,6 +96,23 @@
     &:nth-child(5){
       background: linear-gradient(to right, rgba($brand-one, 0.8) 0%, rgba($brand-one, 0.8) 100%), url("../img/nav-block-five.jpg") center center / cover no-repeat;
     }
+    &.active{
+      &:nth-child(1){
+        background: linear-gradient(to right, rgba($brand-two, 0.8) 0%, rgba($brand-two, 0.8) 100%), url("../img/nav-block-one.jpg") center center / cover no-repeat;
+      }
+      &:nth-child(2){
+        background: linear-gradient(to right, rgba($brand-two, 0.8) 0%, rgba($brand-two, 0.8) 100%), url("../img/nav-block-two.jpg") center center / cover no-repeat;
+      }
+      &:nth-child(3){
+        background: linear-gradient(to right, rgba($brand-two, 0.8) 0%, rgba($brand-two, 0.8) 100%), url("../img/nav-block-three.jpg") center center / cover no-repeat;
+      }
+      &:nth-child(4){
+        background: linear-gradient(to right, rgba($brand-two, 0.8) 0%, rgba($brand-two, 0.8) 100%), url("../img/nav-block-four.jpg") center center / cover no-repeat;
+      }
+      &:nth-child(5){
+        background: linear-gradient(to right, rgba($brand-two, 0.8) 0%, rgba($brand-two, 0.8) 100%), url("../img/nav-block-five.jpg") center center / cover no-repeat;
+      }
+    }
   }
 }
 .home-wrapper{}
