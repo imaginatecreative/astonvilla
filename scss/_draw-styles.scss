@@ -119,7 +119,10 @@
         font-family: $font-family;
         padding: 0.2rem 0.5rem;
         margin-bottom: 0.5rem;
-
+        span {
+          color: $black;
+          font-weight: 400;
+        }
       }
       &:nth-child(2) {
         background-color: $brand-one;
@@ -179,7 +182,7 @@
     }
     h4 {
       color: $black;
-      &:nth-child(1){
+      &:nth-child(1) {
         font-weight: 600;
       }
     }
@@ -283,7 +286,7 @@
     @media only screen and (min-width: 1000px) {
       flex: 1 1 250px;
     }
-    h6{
+    h6 {
       color: $black;
     }
   }
@@ -325,7 +328,7 @@ div.block.step-two {
   *:not(a) {
     color: $brand-one;
   }
-  h2, h2 strong,p{
+  h2, h2 strong, p {
     color: $black;
     font-family: "effra", sans-serif;
   }
