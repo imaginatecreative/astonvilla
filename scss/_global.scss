@@ -57,8 +57,10 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: auto;
+    width: 10%;
     z-index: 20;
+    text-align: center;
+
     .inner_wrapper {
       width: auto;
       display: inline-block;

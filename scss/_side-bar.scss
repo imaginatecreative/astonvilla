@@ -95,7 +95,7 @@ header.block.side_bar {
     padding: .5rem .5rem .5rem 0;
     box-sizing: border-box;
     max-width: 150px;
-    margin: auto;
+    margin: 0 auto 0 auto;
     @media only screen and (max-width: 1000px) {
       right: 0;
     }
