@@ -46,9 +46,10 @@ a.alt {
 
   }
   &:active,&.focus {
-    background-color: $brand-two;
+    background-color: $brand-one;
     color: $white;
     outline: none;
+
 
   }
 
@@ -120,16 +121,18 @@ input[type=number] {
 
   }
   &:active,&.focus {
-    background-color: $brand-two;
+    background-color: $brand-one;
     color: $white;
     outline: none;
+
 
   }
 
   &:focus {
-    background-color: $brand-two;
+    background-color: $brand-one;
     color: $white;
     outline: none;
+
   }
   @media only screen and (max-width: 768px) {
     padding: 15px 25px;
@@ -164,16 +167,18 @@ input[type=number] {
 
   }
   &:active,&.focus {
-    background-color: $brand-two;
+    background-color: $brand-one;
     color: $white;
     outline: none;
+
 
   }
 
   &:focus {
-    background-color: $brand-two;
+    background-color: $brand-one;
     color: $white;
     outline: none;
+
   }
   @media only screen and (max-width: 768px) {
     padding: 15px 25px;
