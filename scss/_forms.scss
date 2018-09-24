@@ -46,7 +46,11 @@ form {
   }
 }
 
-
+//EDGE{
+input.edge-autofilled,select.edge-autofilled{
+  background-color: transparent!important;
+  color: $black!important;
+}
 .inputMaterial {
   font-size: 18px;
   padding: 10px 10px 10px 5px;
